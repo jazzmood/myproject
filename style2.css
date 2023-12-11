@@ -7,7 +7,7 @@
 header{
     width: 100%;
     height: 70vh;
-    background-color: rgb(168, 168, 185);
+    background-color: rgb(35,39,42);
     display: flex;
     flex-direction: column;
 align-items: center;    
@@ -15,8 +15,9 @@ align-items: center;
 nav{
     width: 100%;
     height: 60px;
-    background-color: black;
+    background-color: rgb(35,39,42);
     display: flex;
+    font-style: inherit;
     align-items: center;
     justify-content: space-around;
     color: white;
@@ -35,6 +36,18 @@ text-decoration: none;
 color: white;
 
 }
+.bubu{
+    width: 60px;
+    height: 45px;
+    border-radius: 25px;
+    transition: 0.5s;
+    
+}
+.bubu:hover{
+    color: blue;
+    cursor: pointer;
+    /* box-shadow: 1px 0px 3px 0px white; */
+}
 .draft1{
     position: absolute;
     top: 50%;
@@ -43,10 +56,34 @@ color: white;
     color: white;
 }
 .sep{
-    top: 20px;
+    right: 20px;
     display: flex;
     flex-direction: row;
     gap: 30px;
+}
+.sep{
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 30px;
+    margin-right: 80px;
+}
+.sep22 img{
+    width: 350px;
+    height: 350px;
+    
+}
+.sep22 img{
+    width: 350px;
+    height: 350px;
+    
+}
+.sep22 .img1{
+    position: absolute;
+    right: 0px;
+    bottom: 100px;
+    top: 200px;
 }
 .demoo{
     
@@ -93,73 +130,98 @@ section{
     scroll-snap-align: start;
     background-color: white;
 }
-
-.content1 {
-    background-image: url(Screenshot\ 2023-12-07\ at\ 06.10.36.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-  }
-  .content2{
-    background-image: url(page\ 1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .content3{
-    background-image: url(page\ 2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .content4{
-    background-image: url(page\ 3.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-.conn1{
+footer{
+    width: 100%;
+    height: 70vh;
     display: flex;
+    justify-content: space-between;
+    scroll-snap-align: start;
+    background-color: rgb(73, 66, 66);
+    padding: 0 50px;
     
-    top: 50%;
-    left: 50%;
-    justify-content: center;
-    align-items: center;
-    color: black;
-}
 
-.draft5{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
-.draft6{
+    
+ }
+ footer div{
     display: flex;
-    align-items: center;
-    justify-content: center;
-   
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 10px;
+ }
+ div a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
     
 
  }
- footer{
+ .aa{
+    text-decoration: underline;
+
+ }
+
+ .ft1{
+    top: 50%;
+    flex-direction: row;
+    color: white;
+    width: 10px;
+    padding-left: 10px;
+    
+
+ }
+
+.oos{
+    background: blueviolet;
+    padding: 30px;
+    width: 50%;
+    height: 500px;
+    border-radius: 10px;
+  /* display: grid;
+ grid-template-columns: repeat(5,1fr);
+ grid-template-rows: repeat(4,minmax(150px, auto));
+ max-width: 950px;
+ margin: 0 auto;
+ grid-gap: 20px;
+padding-top: 100px; */
+
+ 
+}
+.oos div{
+    
+
+    
+}
+.d-1{
+    display: flex;
+   align-items: center;
+}
+/* .one{
+   grid-row: 1/4;
+   grid-column: 4/1;
+}
+.two{
+    grid-row: 2/7;
+    
+   
+}
+.three{
+    grid-row: 6/4;
+    grid: ;
+}
+.oos h1{
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+    margin-left: 80px;
+}
+.oss h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100vh;
-    scroll-snap-align: start;
-    background-color: grey;
- }
-
- /* .zero{
-    width: 200px;
-    height: 200px;
     background-color: red;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   border-top-left-radius: 20px;
-   border-bottom-left-radius: 20px;
-   border-top-right-radius: 20px;
-    
-    padding-left: 100px;
- } */
+} */
